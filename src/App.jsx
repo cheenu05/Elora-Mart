@@ -1,7 +1,8 @@
 import React from 'react'
 import { useState } from 'react';
 import LoadingAnimation from './Components/LoadingAnimation.jsx';
-import Home from './Components/Home.jsx';
+import Render from './Render.jsx';
+
 
 const App = () => {
 
@@ -9,12 +10,12 @@ const App = () => {
 
   return (
     <>
-       {loading ? (
+      {loading ? (
         <LoadingAnimation onFinish={() => setLoading(false)} />
       ) : (
-        <Home />
+       <Render />
       )}
-
+      
     </>
   )
 }

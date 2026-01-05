@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+.Navbg{
+    background: #5A7863;
+}
+.textcolor{
+    color: #EBF4DD;
+    letter-spacing: 2px;
+}
+
+.bg{
+    background: #EBF4DD;
+}
