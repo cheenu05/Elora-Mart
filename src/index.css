@@ -1,5 +1,7 @@
 @import "tailwindcss";
-
+*{
+    font-family: serif;
+}
 .Navbg{
     background: #5A7863;
 }
@@ -9,5 +11,10 @@
 }
 
 .bg{
-    background: #EBF4DD;
+ background-color: #EBF4DD;
+}
+
+.menuColor{
+    color: #3B4953;
+    font-size: 14px;
 }

@@ -4,6 +4,7 @@ import LoadingAnimation from './Components/LoadingAnimation.jsx';
 import Render from './Render.jsx';
 
 
+
 const App = () => {
 
   const [loading, setLoading] = useState(true);
@@ -13,9 +14,11 @@ const App = () => {
       {loading ? (
         <LoadingAnimation onFinish={() => setLoading(false)} />
       ) : (
-       <Render />
+        <Render />
       )}
-      
+
+
+
     </>
   )
 }
